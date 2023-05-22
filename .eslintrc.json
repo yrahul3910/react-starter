@@ -3,7 +3,8 @@
   "env": {
     "browser": true,
     "node": true,
-    "mocha": true
+    "mocha": true,
+    "jest": true
   },
   "extends": [
     "eslint:recommended",
@@ -49,7 +50,6 @@
     "array-element-newline": ["error", {"multiline": true}],
     "block-spacing": ["error", "never"],
     "brace-style": ["error", "stroustrup", {"allowSingleLine": true}],
-    "capitalized-comments": ["error", "always"],
     "comma-spacing": ["error", {"before": false, "after": true}],
     "comma-style": ["error", "last"],
     "eol-last": ["error", "always"],
