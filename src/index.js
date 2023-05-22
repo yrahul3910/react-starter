@@ -6,6 +6,6 @@ import App from './components/App/App.tsx';
 
 ReactDOM.render(
   <Router>
-  <App />
+    <App />
   </Router>, document.getElementById('app')
-  );
+);

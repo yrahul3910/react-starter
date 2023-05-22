@@ -1,12 +1,22 @@
 repos:
-  -   repo: https://github.com/charliermarsh/ruff-pre-commit
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
   # Ruff version.
   rev: 'v0.0.260'
   hooks:
     - id: ruff
-    -   repo: https://github.com/pre-commit/pre-commit-hooks
+    - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
     hooks:
-      -   id: check-yaml
-      -   id: end-of-file-fixer
-      -   id: trailing-whitespace
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/pre-commit/mirrors-eslint
+    rev: ''  # Use the sha / tag you want to point at
+    hooks:
+      - id: eslint
+        files: \.[jt]sx?$
+        types: [file]
+        additional-dependencies:
+          - eslint@8.18.0
+          - eslint-plugin-react@7.1.0
+          - eslint-plugin-import@2.14.0
