@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Fraud detection backend",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint . --fix",
     "watch": "webpack --watch",
     "build": "webpack --mode development",
     "predist": "rm -rf dist/",

@@ -1,4 +1,4 @@
-//import '../sass/index.sass';
+// Import '../sass/index.sass';
 import ReactDOM from 'react-dom';
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';

@@ -7,9 +7,7 @@ const theme = {
   },
   colors: {
     orange: '#fdb755',
-    text: {
-      lighterGray: '#93918f',
-    },
+    text: { lighterGray: '#93918f', },
   },
 };
 
