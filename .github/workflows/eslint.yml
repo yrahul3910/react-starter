@@ -35,7 +35,7 @@ jobs:
           npm i
 
       - name: Run ESLint
-        run: eslint . --output-file eslint-results.sarif
+        run: npx eslint . --output-file eslint-results.sarif
         continue-on-error: true
 
       - name: Upload analysis results to GitHub
