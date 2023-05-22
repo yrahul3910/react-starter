@@ -20,3 +20,6 @@ repos:
     - eslint@8.18.0
     - eslint-plugin-react@7.1.0
     - eslint-plugin-import@2.14.0
+    - typescript-eslint
+    - "@typescript-eslint/parser"
+    - "@typescript-eslint/eslint-plugin"

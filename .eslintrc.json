@@ -11,16 +11,17 @@
     "plugin:react/recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2020,
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       "jsx": true
     },
-    "parser": "@typescript-eslint/parser",
     "sourceType": "module"
   },
+  "parser": "@typescript-eslint/parser",
   "plugins": [
-    "react"
+    "react",
+    "@typescript-eslint"
   ],
   "settings": {
     "react": {
