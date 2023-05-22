@@ -16,8 +16,13 @@
       "experimentalObjectRestSpread": true,
       "jsx": true
     },
+    "parser": "@typescript-eslint/parser",
     "sourceType": "module"
   },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
   "settings": {
     "react": {
       "version": "detect"
