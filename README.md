@@ -1,5 +1,7 @@
 # Fraud detection service
 
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/yrahul3910/fraud-detection/main.svg)](https://results.pre-commit.ci/latest/github/yrahul3910/fraud-detection/main)
+
 ## Tech stack
 
 - Python (3.10 encouraged)
